@@ -1,13 +1,10 @@
 <script lang="ts">
-    import Card from "./Card.svelte";
+    import { Card } from '$lib/components'
 
 </script>
 
-<h1>This is the dashboard</h1>
-
-<div>
-    <h3>Sample box</h3>
+<div class="grid lg:grid-cols-3 md:grid-cols-2 justify-stretch">
+    <Card cardTitle="TFSA"/>
+    <Card cardTitle="RRSP"/>
+    <Card cardTitle="Non Registered"/>
 </div>
-
-<Card cardTitle="TFSA"/>
-<Card cardTitle="RRSP"/>

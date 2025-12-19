@@ -29,7 +29,7 @@
 </script>
 
 
-<div class="drawer lg:drawer-open">
+<div class="drawer lg:drawer-open w-dvw">
   <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content">
     <!-- Navbar -->
@@ -52,6 +52,9 @@
             <SidebarNavButton sidebarBtn={btn} />
         {/each}
       </ul>
+      <div class="justify-end align-center pb-4 pl-4 is-drawer-close:tooltip is-drawer-close:tooltip-right cursor-pointer">
+        <p class="is-drawer-close:hidden">This is the footer</p>
+      </div>
     </div>
   </div>
 </div>

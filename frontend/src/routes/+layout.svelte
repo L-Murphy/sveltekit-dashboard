@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<div class="container flex flex-row">
+<div class="flex flex-row">
 	<Sidebar>
 		<main>
 			{@render children()}
