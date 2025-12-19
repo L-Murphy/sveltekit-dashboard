@@ -1,6 +1,6 @@
 <script lang="ts">
     
-    let hidden = $state(true)
+    let hidden = $state(false)
     let props = $props();
 
     const toggleHidden = () => {
