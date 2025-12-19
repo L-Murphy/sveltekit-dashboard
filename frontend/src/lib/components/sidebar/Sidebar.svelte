@@ -10,18 +10,18 @@
     const content : SidebarBtn[] = [
         {
             "name": "Home",
-            "icon": "",
+            "icon": "bx:home",
             "link": "/"
         },
         {
             "link": "/dashboard",
             "name": "Dashboard",
-            "icon": ""
+            "icon": "bx:calculator"
         },
         {
             "link": "/RRSP", 
             "name": "RRSP",
-            "icon": ""
+            "icon": "bx:line-chart"
         }
     ];
 
